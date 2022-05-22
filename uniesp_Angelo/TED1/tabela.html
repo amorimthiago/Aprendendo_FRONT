@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form e Tabela</title>
+</head>
+<body>
+    <table>
+        <tr><th>linha 1 </th></tr><tr><th>linha 2 </th></tr>
+        <td>coluna 1</td>
+    </table>
+    <form action="resposta.html"> <!-- Esse action é para onde envia--> 
+        <label for=name> Name: </label>
+
+        <input type="text" name="TEXTO"/><br>
+        Senha: 
+        <input type="password" name=""/><br> 
+        <label for="number">Número:</label>
+        <input type="number" name="numero" id="numero" /><br>
+        <label for=email> E-mail:</label>
+        <input type="email" name="email" id="email"/> <br>
+        <label for=url> URL:</label>
+        <input type="url" name="url" id="url"/>
+        <input type="submit" value="enviar" name="butaum" id="butaum"/>
+        <input type="button" name="but1" value="teste" id="teste"/>
+        
+
+
+    </form>
+    <div style="text-align:center">
+    <p>Form em Radio</p>
+    <form>
+        <input type="radio" name="videoum">Atari <br>
+        <input type="radio" name="videoum">SNES <br>
+        <input type="radio" name="videoum">PSP <br>
+    </form>
+</div>
+    <p>Check Box</p>
+    <form>
+        <input type="checkbox" name="jogosum"/>FIFA<br>
+        <input type="checkbox" name="jogosum"/>Street Fight<br>
+        <input type="checkbox" name="jogosum"/>Mario Kart<br>
+        <input type="submit" value="enviar" name="enviar2" id="butaum"/></br></br>
+    </form>
+
+    <form>
+        <select>
+            <option value="html5">HTML 5</option>
+            <option value="Javascript"> Javascript</option>
+            <option value="php">PHP</option>
+            <option value="teste">TESTE</option>
+        </select>
+
+    </form>
+<br>
+    <form>
+        <fieldset>
+            <legend>Cadastro</legend>
+            Nome: <input type="text"></br>
+            E-mail: <input type="email"></br>
+        </fieldset>
+
+    </form>
+</body>
+</html>
